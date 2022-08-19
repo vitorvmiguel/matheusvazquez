@@ -133,6 +133,16 @@ input, select, textarea {
 		font-style: italic;
 	}
 
+	h1 {
+		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-size: 5rem;
+		font-weight: 700;
+		letter-spacing: -0.05em;
+		line-height: 1.1;
+		margin: 0 0 1.5rem 0;
+		text-transform: none;
+	}
+
 	h1, h2, h3, h4, h5, h6 {
 		color: #252122;
 		font-weight: 700;
@@ -1571,7 +1581,7 @@ input, select, textarea {
 	.box {
 		background: #ffffff;
 		border-bottom: solid 1px #ccc;
-		padding: 2.75em 1.75em 2.75em 1.75em;
+		padding: 2.75em 1.75em 0 1.75em;
 	}
 
 		.box .image.featured {
@@ -1579,7 +1589,7 @@ input, select, textarea {
 			width: auto;
 			left: 1.75em;
 			top: 1.75em;
-			margin: -4.5em 0 4.25em -3.5em;
+			margin: -4.5em 0 0 -3.5em;
 		}
 
 		.box.post header {
@@ -2068,7 +2078,7 @@ input, select, textarea {
 		position: relative;
 		background: #ffffff;
 		border-bottom: solid 1px #ccc;
-		padding: 5em 0 4em 0;
+		padding: 5em 0 5em 0;
 		text-align: center;
 	}
 
@@ -2083,7 +2093,7 @@ input, select, textarea {
 /* Nav */
 
 	#nav {
-		margin: 2.5em 0 0 0;
+		margin: 0 0 0 0;
 	}
 
 		#nav > ul {
@@ -2173,13 +2183,13 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		background: #CCE8F4 url("../../images/pic01.jpg");
+		background: #CCE8F4 url("../../images/_DSC2559.jpg");
 		background-position: center center;
-		background-size: auto 100%;
+		background-size: 100% auto;
 		background-repeat: no-repeat;
 		text-align: center;
 		position: relative;
-		padding: 8em 0;
+		padding: 11em 0;
 		margin: 4em 0 0 0;
 	}
 
@@ -2759,13 +2769,13 @@ input, select, textarea {
 		/* Box */
 
 			.box {
-				padding: 25px 15px 20px 15px;
+				padding: 25px 15px 0px 15px;
 			}
 
 				.box .image.featured {
 					left: 15px;
 					top: 15px;
-					margin: -40px 0 40px -30px;
+					margin: -40px 0 0px -30px;
 				}
 
 				.box.post header {
