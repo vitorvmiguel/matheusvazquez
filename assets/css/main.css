@@ -2183,7 +2183,7 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		background: #CCE8F4 url("../../images/_DSC2559.jpg");
+		background: #CCE8F4 url("/images/_DSC2559.jpg");
 		background-position: center center;
 		background-size: 100% auto;
 		background-repeat: no-repeat;
