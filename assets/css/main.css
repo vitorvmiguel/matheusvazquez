@@ -7,6 +7,21 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+@font-face {
+  font-family: 'Futura';
+  src: url('/assets/webfonts/FuturaStd-Bold.ttf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Century';
+  src: url('/assets/webfonts/CenturySchoolbook.ttf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -74,6 +89,14 @@ input, select, textarea {
 
 /* Basic */
 
+	.century {
+		font-family: "Century";
+	}
+
+	.futura {
+		font-family: "Futura";
+	}
+
 	html {
 		box-sizing: border-box;
 	}
@@ -99,8 +122,8 @@ input, select, textarea {
 		}
 
 	body, input, textarea, select {
-		font-family: 'Source Sans Pro';
-		font-weight: 300;
+		font-family: 'Century';
+		font-weight: 400;
 		color: #5d5d5d;
 		font-size: 14pt;
 		line-height: 1.75em;
@@ -108,7 +131,7 @@ input, select, textarea {
 
 	strong, b {
 		color: #252122;
-		font-weight: 400;
+		font-weight: 700;
 	}
 
 	i, em {
@@ -134,8 +157,8 @@ input, select, textarea {
 	}
 
 	h1 {
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
-		font-size: 5rem;
+		font-family: "Futura", "Source Sans Pro", Helvetica, sans-serif;
+		font-size: 2em;
 		font-weight: 700;
 		letter-spacing: -0.05em;
 		line-height: 1.1;
@@ -143,7 +166,12 @@ input, select, textarea {
 		text-transform: none;
 	}
 
+	h1 > a > span {
+		font-family: "Century";
+	}
+
 	h1, h2, h3, h4, h5, h6 {
+		font-family: 'Futura';
 		color: #252122;
 		font-weight: 700;
 	}
@@ -2085,7 +2113,7 @@ input, select, textarea {
 		#header h1 {
 			color: #252122;
 			font-weight: 900;
-			font-size: 2.5em;
+			font-size: 2em;
 			letter-spacing: -0.035em;
 			line-height: 1;
 		}
@@ -2102,7 +2130,6 @@ input, select, textarea {
 
 			#nav > ul > li {
 				display: inline-block;
-				font-style: italic;
 				margin: 0 0.35em 0 0.35em;
 			}
 
@@ -2112,7 +2139,7 @@ input, select, textarea {
 
 				#nav > ul > li > a {
 					border-radius: 5px;
-					color: #5d5d5d;
+					color: #2b2b2b;
 					text-decoration: none;
 					padding: 0.6em 1.2em 0.6em 1.2em;
 					-moz-transition: background-color .25s ease-in-out;
@@ -2131,6 +2158,21 @@ input, select, textarea {
 					color: #fff !important;
 					font-weight: 700;
 				}
+
+				#nav > ul > li > div.lang-switcher select {
+					border: 1px solid #ccc;
+					font-style: italic;
+					color: #2b2b2b;
+					padding: 6px 10px;
+					border-radius: 6px;
+					font-size: 1em;
+					background: #fff;
+					cursor: pointer;
+					}
+
+					div.lang-switcher select:hover {
+					background: #f0f0f0;
+					}
 
 	.dropotron {
 		border-radius: 5px;
@@ -2183,7 +2225,7 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		background: #7e0c0c url("../../images/DSC2559.jpg");
+		background: #000000 url("../../images/YouTube.png");
 		background-position: center center;
 		background-size: 100% auto;
 		background-repeat: no-repeat;
@@ -2300,7 +2342,7 @@ input, select, textarea {
 
 	#footer {
 		position: relative;
-		color: #858484;
+		color: #dddddd;
 		padding: 4em 0;
 	}
 
